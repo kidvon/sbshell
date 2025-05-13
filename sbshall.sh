@@ -11,7 +11,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 RED='\033[0;31m'
 NC='\033[0m' # 无颜色
-
+echo -e "${DEBIAN_MAIN_SCRIPT_URL}"
 # 检查系统是否支持
 if [[ "$(uname -s)" != "Linux" ]]; then
     echo -e "${RED}当前系统不支持运行此脚本。${NC}"
