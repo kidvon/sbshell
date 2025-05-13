@@ -22,6 +22,7 @@ sudo chown "$(whoami)":"$(whoami)" "$SCRIPT_DIR"
 
 # 脚本的URL基础路径
 BASE_URL="https://gh-proxy.com/https://raw.githubusercontent.com/kidvon/sbshell/refs/heads/main/debian"
+echo -e "${BASE_URL}"
                                
 # 脚本列表
 SCRIPTS=(
