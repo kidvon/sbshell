@@ -93,6 +93,9 @@ table inet sing-box {
         # 自定义绕过地址
         ip daddr $CustomBypassIP accept
 
+        # Allow dae’s traffic to 127.0.0.1:7895
+        meta mark 0x00000800 fib daddr type local meta l4proto { tcp, udp } th dport $TPROXY_PORT accept
+
         # 拒绝访问本地 TProxy 端口
         fib daddr type local meta l4proto { tcp, udp } th dport $TPROXY_PORT reject with icmpx type host-unreachable
 
