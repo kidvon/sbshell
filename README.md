@@ -20,7 +20,7 @@ Sbshell 是一款针对 官方sing-box 的辅助运行脚本，旨在解决官�
 
 ## 一键脚本：(请自行安装curl和bash，如果缺少的话)
 ```
-bash <(curl -sL https://gh-proxy.com/https://raw.githubusercontent.com/kidvon/sbshell/refs/heads/main/sbshall.sh)
+bash <(curl -sL https://gh-proxy.com/raw.githubusercontent.com/kidvon/sbshell/refs/heads/main/sbshall.sh)
 ```
 - 初始化运行结束，输入“**sb**”进入菜单
 - 目前支持系统为deiban/ubuntu/armbian/openwrt。  
@@ -28,7 +28,7 @@ bash <(curl -sL https://gh-proxy.com/https://raw.githubusercontent.com/kidvon/sb
 
 ### 系统信息自动显示美化脚本： 
 ```
-bash <(curl -sL https://gh-proxy.com/https://raw.githubusercontent.com/kidvon/DPInfo-script/refs/heads/main/auto-sysinfo.sh)
+bash <(curl -sL https://gh-proxy.com/raw.githubusercontent.com/kidvon/DPInfo-script/refs/heads/main/auto-sysinfo.sh)
 ```
   执行后每次进入ssh会自动显示很多必要信息！
   仓库：  
@@ -38,10 +38,10 @@ bash <(curl -sL https://gh-proxy.com/https://raw.githubusercontent.com/kidvon/DP
 
 ### 稳定版(1.11)：  
 tproxy：  
-https://gh-proxy.com/https://raw.githubusercontent.com/kidvon/sbshell/refs/heads/main/config_template/config_tproxy.json  
+https://gh-proxy.com/raw.githubusercontent.com/kidvon/sbshell/refs/heads/main/config_template/config_tproxy.json
 
 tun：  
-https://gh-proxy.com/https://raw.githubusercontent.com/kidvon/sbshell/refs/heads/main/config_template/config_tun.json  
+https://gh-proxy.com/raw.githubusercontent.com/kidvon/sbshell/refs/heads/main/config_template/config_tun.json  
 
 ## 其他问题：
 
